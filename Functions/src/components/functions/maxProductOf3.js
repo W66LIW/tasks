@@ -14,7 +14,7 @@ function toArr(str) {
 
 function maxProductOf3(str){
     const arr = toArr(str);
-    console.log("arr: " + arr);
+    //console.log("arr: " + arr);
     if(arr === false) return "Некорректный ввод";
     else if(arr.length < 3) return "Неверное количество";
     else if(arr.length === 3) return arr[0] + ", " + arr[1] + ", " + arr[2];

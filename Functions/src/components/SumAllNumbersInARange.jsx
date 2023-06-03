@@ -5,7 +5,7 @@ import React, {useState} from 'react';
 const SumAllNumbersInARange = (props) => {
 
     const [state, setState] = useState(false);
-    const [arg, setArg] = useState([null, null]);
+    const [arg, setArg] = useState(["", ""]);
 
 
     const func = props.value[0];
@@ -20,9 +20,9 @@ const SumAllNumbersInARange = (props) => {
 
 
     
-    console.log("prop: " + props.value[0]);
-    console.log(arg);
-    console.log(func(arg));
+    // console.log("prop: " + props.value[0]);
+    // console.log(arg);
+    // console.log(func(arg));
 
     return (
 

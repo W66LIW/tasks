@@ -14,7 +14,7 @@ const FuncComponent = (props) => {
 
     //console.log("prop: " + props.value[0]);
     //console.log(input);
-    console.log("func returns: " + func(input));
+    //console.log("func returns: " + func(input));
 
     return (
         <div>

@@ -14,7 +14,7 @@ function toArr(str) {
 
 function maxProduct(str){
     const arr = toArr(str);
-    console.log("arr: " + arr);
+    //console.log("arr: " + arr);
     if(arr === false) return "Некорректный ввод";
     else if(arr.length < 2) return "Неверное количество";
     else if(arr.length === 2) return arr[0] + ", " + arr[1];
@@ -39,10 +39,10 @@ function maxProduct(str){
                 else if(arr[i] < maxY2) maxY2 = arr[i];
         }
     }
-    console.log(null<1)
-    console.log(null<0)
-    console.log(null*(-7))
-    console.log(null*3)
+    // console.log(null<1)
+    // console.log(null<0)
+    // console.log(null*(-7))
+    // console.log(null*3)
 
     if((maxX*maxX2) >= (maxY*maxY2)) return maxX + ", " + maxX2;
     else return maxY + ", " + maxY2;

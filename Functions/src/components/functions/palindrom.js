@@ -14,12 +14,12 @@ function toArr(str) {
 
 function palindrom(str) {
     const arr = toArr(str);
-    console.log("arr: " + arr);
+    //console.log("arr: " + arr);
     if(arr === false) return "Некорректный ввод";
     else if(arr.length < 1) return "Неверное количество";
 
     const mid = Math.ceil(arr.length/2);
-    console.log("mid = " + mid)
+    //console.log("mid = " + mid)
    
 
     // for(let t = mid; t < arr.length; t++) {

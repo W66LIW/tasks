@@ -15,7 +15,7 @@ function toArr(str) {
 
   function findAPlace(str) {
     const arr = toArr(str);
-    console.log("arr: " + arr);
+    //console.log("arr: " + arr);
     if(arr === false) return "Некорректный ввод";
     else if(arr.length < 3) return "Неверное количество";
 
@@ -42,7 +42,7 @@ function toArr(str) {
          (arr[i] > ans)) {
             ans = arr[i];            
         }
-        console.log("ans: "+ans);
+        //console.log("ans: "+ans);
     }
     
     if(ans === 0) return 0;
